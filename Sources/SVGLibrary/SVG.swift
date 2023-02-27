@@ -12,7 +12,7 @@ open class SVG {
     // Initialize the SVG file with commands that will create a
     // width x height canvas
     public init(width: UInt, height: UInt) {
-      contents_add(line: "<?xml version=\"1.0\" encoding=\"utf-8\" ?>\n")
+      contents_add(line: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n")
       contents_add(line: "<svg version=\"1.1\" baseProfile=\"full\" width=\"\(width)\" height=\"\(height)\" xmlns=\"http://www.w3.org/2000/svg\">\n")
     }
 
